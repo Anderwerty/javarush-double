@@ -1,4 +1,4 @@
-package ua.javarush.lesson3;
+package ua.javarush.module1.lesson3;
 
 public class Example7 {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package ua.javarush.lesson3;
+package ua.javarush.module1.lesson3;
 
 import java.util.Scanner;
 
