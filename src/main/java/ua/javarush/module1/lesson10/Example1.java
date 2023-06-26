@@ -1,4 +1,4 @@
-package ua.javarush.module1.lessoon10;
+package ua.javarush.module1.lesson10;
 
 public class Example1 {
 //    private static final double PI = 3.14;// static final, not final static
