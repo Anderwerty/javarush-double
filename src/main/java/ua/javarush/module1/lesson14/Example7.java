@@ -15,7 +15,7 @@ class EngineMaker {
 
     public void staticMethod() {
         makerStaticValue++;
-        Engine.engineStaticValue++;
+     /*   Engine.engineStaticValue++;*/
     }
 
     public void method() {
@@ -24,7 +24,7 @@ class EngineMaker {
     }
 
     public class Engine {
-        public static int engineStaticValue = 0;
+        public /*static*/ int engineStaticValue = 0;
 
         public int value = 0;
 
@@ -33,7 +33,7 @@ class EngineMaker {
             engineStaticValue++;
         }
 
-        public static void method(){
+        public/* static*/ void method(){
 
         }
     }

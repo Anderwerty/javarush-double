@@ -29,10 +29,10 @@ public class Example4 {
         System.out.println("\"");
         System.out.println("'");
 
-        System.out.println("""
-                Hello
-                Ukraine
-                !
-                """);
+//        System.out.println("""
+//                Hello
+//                Ukraine
+//                !
+//                """);
     }
 }

@@ -1,6 +1,7 @@
 package ua.javarush.module1.project;
 
 public class CaesarCipher {
+    private static final char[] UA_ALPHABET =  {'a','б'};
 
     private final char[] symbols; // List<Character>, String
 
@@ -8,8 +9,10 @@ public class CaesarCipher {
         this.symbols = symbols;
     }
 
-    //key 1000
-    // Stri
+    public static CaesarCipher getCeasarChipherForUA(){
+        return new CaesarCipher(UA_ALPHABET);
+    }
+
     public String encode(String text, int key) {
         throw new UnsupportedOperationException();
     }

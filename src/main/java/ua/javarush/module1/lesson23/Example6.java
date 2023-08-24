@@ -8,18 +8,19 @@ public class Example6 {
     }
 
     public static int daysInMonth(Month month) {
-        return month == null ? 0 : switch (month) {
-            case JANUARY,
-                    MARCH,
-                    MAY,
-                    JULY,
-                    AUGUST,
-                    OCTOBER,
-                    DECEMBER -> 31;
-            case APRIL, JUNE, SEPTEMBER, NOVEMBER -> 30;
-            case FEBRUARY -> 28;
-            default -> throw new IllegalArgumentException();
-        };
+//        return month == null ? 0 : switch (month) {
+//            case JANUARY,
+//                    MARCH,
+//                    MAY,
+//                    JULY,
+//                    AUGUST,
+//                    OCTOBER,
+//                    DECEMBER -> 31;
+//            case APRIL, JUNE, SEPTEMBER, NOVEMBER -> 30;
+//            case FEBRUARY -> 28;
+//            default -> throw new IllegalArgumentException();
+//        };
+        return 1;
     }
 
 
