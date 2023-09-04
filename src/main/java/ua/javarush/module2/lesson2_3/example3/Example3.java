@@ -1,4 +1,4 @@
-package ua.javarush.module2.lesson2.example3;
+package ua.javarush.module2.lesson2_3.example3;
 
 public class Example3 {
 }
