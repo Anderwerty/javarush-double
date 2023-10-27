@@ -7,7 +7,6 @@ import java.util.concurrent.ForkJoinTask;
 public class Island {
     private final Location[][] area;
 
-    private final List<ForkJoinTask> list = new ArrayList<>();
 
     public Island(int xSize, int ySize){
         area = new Location[xSize][ySize];
@@ -21,7 +20,5 @@ public class Island {
     }
 
     private static void inhabitIsland(Location [][] area){
-        // inhabit with animals
-        // inhabit with planes
     }
 }
