@@ -4,9 +4,14 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Random;
 import java.util.function.Supplier;
 
 public class Location {
+    private static Map<Class<? extends Animal>, Integer> map = new HashMap<>();
+    static {// map.put...
+         }
+
     private final AnimalFactory animalFactory;
 
     private final Map<Class<? extends Animal>, List<Animal>> classToAnimal = new HashMap<>();
@@ -18,14 +23,13 @@ public class Location {
 
 
     public void init() {
-        Map<Class<? extends Animal>, Integer> list = new HashMap<>();
 
-        list.forEach((aClass, number) -> processAnimal(aClass, randomNumber(number)));
+        map.forEach((aClass, number) -> processAnimal(aClass, randomNumber(number)));
 
     }
 
     private int randomNumber(Integer number) {
-        return 0;
+        return new Random().nextInt(number);
     }
 
     private void processAnimal(Class<? extends Animal> animalClass, int number) {
