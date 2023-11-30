@@ -39,7 +39,7 @@ public class Island {
     }
 }
 
-interface Task {
+interface Task { // Runnable,
     void execute();
 }
 
