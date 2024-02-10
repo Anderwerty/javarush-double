@@ -1,4 +1,4 @@
 .idea
 *iml
 target
-src/main/resources/module4/.lesson7/secret.properties
+src/main/resources/module4/lesson7/secret.properties

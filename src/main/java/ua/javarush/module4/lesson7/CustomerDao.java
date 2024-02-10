@@ -1,17 +1,11 @@
-package ua.javarush.module4;
+package ua.javarush.module4.lesson7;
 
-import com.mysql.cj.jdbc.result.ResultSetImpl;
-
-import java.sql.Blob;
-import java.sql.Clob;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.ResultSetMetaData;
 import java.sql.SQLException;
-import java.time.LocalDateTime;
-import java.util.Date;
 
 public class CustomerDao {
 

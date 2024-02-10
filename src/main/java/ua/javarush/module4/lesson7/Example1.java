@@ -1,4 +1,4 @@
-package ua.javarush.module4;
+package ua.javarush.module4.lesson7;
 
 import java.sql.SQLException;
 

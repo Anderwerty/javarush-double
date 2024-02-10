@@ -1,4 +1,4 @@
-package ua.javarush.module4;
+package ua.javarush.module4.lesson8;
 
 public class SQLRuntimeException extends RuntimeException {
     public SQLRuntimeException() {
