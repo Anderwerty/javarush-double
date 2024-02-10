@@ -28,7 +28,6 @@ public class CustomerSQLDao implements CustomerDao {
 
             Customer customer = null;
             if (resultSet.next()) {
-
                 customer = new Customer();
                 customer.setId(resultSet.getInt("id"));
                 customer.setName(resultSet.getString("name"));
